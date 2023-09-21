@@ -1,0 +1,18 @@
+My observations on Linear regression , Lasso regression and Ridge regression are,
+
+Training and Testing error in Linear Regression is,
+(Train)Mean Squared Error: 2.0194839173657902e-28.
+(Teasting)Mean Squared Error: 3.6350710512584225e-28.
+Here training error is less than the testing error.
+
+Training and Testing error in Ridge Regression is,
+(Train)Mean Squared Error: 0.07851964168385524.
+(Test)Mean Squared Error with Ridge Regression: 0.13283828848824786.
+Here training error is very less than testing error.
+
+Training and Testing error in Lasso Regression is,
+(Train)Mean Squared Error: 0.3112545898437499.
+(Test)Mean Squared Error with Lasso Regression: 0.11286936848958391.
+Here testing error is less than training error.
+
+Among these three models Lasso Regression has less error.
